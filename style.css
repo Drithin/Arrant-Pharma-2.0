@@ -1,0 +1,337 @@
+/*
+orange - f6915c
+blue - #151a44
+*/
+
+
+html{
+   
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+
+.navbar{ 
+    margin-bottom:0px !important; 
+
+    
+
+    height: 10%;
+}
+
+.navbar img{
+    margin-bottom:0px !important; 
+}
+
+.navbar li a{ 
+    font-size: 20px !important;
+}
+
+.navbar li:hover{
+    border-bottom: 1px solid #f6915c !important;
+}
+
+#nav li a{
+    color: white;
+}
+
+/* .scrolled{
+    background: #151a44;
+} */
+
+/* .navbar-toggler-icon{
+   
+} */
+
+.navbar ul li a:hover,
+.navbar ul li.current-menu-item a {
+    
+    color: #f6915c;
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('images/home-page-2.jpeg');
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+
+
+}
+
+.landing-text h3{
+    color: white;
+    position: absolute;
+    top: 39%;
+    left: 150px;
+    right: 120px;
+    font-size: 150%;
+    text-align: center;
+    
+}
+#services{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('images/services-page.jpeg');
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 50vh;
+
+}
+
+.services-text h1{
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 600px;
+    text-transform: uppercase;
+    
+}
+#careers{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('images/services-page.jpeg');
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 50vh;
+
+}
+
+.careers-text h1{
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 600px;
+    text-transform: uppercase;    
+}
+
+.careers-para{
+    margin-top: 40px;
+    text-align: justify;
+}
+
+#contact{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('images/contact-page.jpeg');
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 50vh;
+
+}
+
+.contact-text h1{
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 600px;
+    text-transform: uppercase;    
+}
+
+.jumbotron h1{
+    text-align: center;
+}
+
+.jumbotron p{
+    text-align: justify;
+}
+
+.jumbotron img{
+    width: 50%;
+    height: 50%;
+}
+
+.padding{
+    padding: 80px 0;
+}
+
+.padding h1{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 200%;
+}
+
+.padding p{
+    text-align: justify;
+    font-size: 100%;
+}
+
+.padding img{
+    width: 100%;
+}
+
+.our-services h1{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 200%;
+}
+
+.our-services h4{
+    font-size: 120%;
+}
+
+.our-services a{
+    color: #151a44;
+}
+
+.our-services .fas{
+  
+        color: #fff;
+        border: 1px solid #f6915c;
+        background-color: #f6915c;
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        text-align: center;
+        border-radius: 50%;
+        margin: 10px;
+        padding: 10px;
+        float: left;
+        font-size: 70px;
+    
+}
+
+.our-services p{
+    text-align: justify;
+    font-size: 100%;
+}
+
+.page-footer, .page-footer a{
+    background-color: #151a44;
+    color: white;
+}
+
+
+
+.services{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.side-bar{
+    background-color: aliceblue;
+}
+
+.services .fas{
+  
+    color: #fff;
+    border: 1px solid #f6915c;
+    background-color: #f6915c;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border-radius: 50%;
+    padding: 5px;
+    float: left;
+    font-size: 70px;
+
+}
+
+
+.services h4{
+    font-size: 120%;
+}
+
+.services h6{
+    font-size: 120%;
+}
+
+ol li{
+    font-size: 100%;
+}
+.services p{
+text-align: justify;
+font-size: 100%;
+}
+
+.careers-para p{
+    font-size: 100%;
+}
+
+.careers-form .container{
+   
+    border-radius: 25px;
+    margin-bottom: 40px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.careers-form-field{
+    margin: 80px 20px 120px 20px;   
+}
+
+.careers-form-field h4{
+    margin-bottom: 40px;
+    color: #151a44;
+    border-bottom: #f6915c;
+}
+
+.form-control{
+    margin-bottom: 20px;
+}
+
+.btn{
+    background-color: #f6915c;
+    color: white;
+}
+
+.btn:hover{
+    color: white;
+    background-color: #151a44;
+}
+
+
+.contact-addr{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.contact-addr h2{
+    font-size: 150%;
+}
+
+.contact-addr h6{
+    font-size: 120%;
+}
+
+.contact-addr p{
+    font-size: 100%;
+}
+
+.contact-addr h6{
+    border-bottom: 1px solid #f6915c;
+}
+.contact-form .container{
+   
+    border-radius: 25px;
+    margin-bottom: 40px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.contact-form-field{
+    margin: 80px 20px 120px 20px;   
+}
+
+.contact-form-field h4{
+    margin-bottom: 40px;
+    color: #151a44;
+    border-bottom: #f6915c;
+}
+
+.form-control{
+    margin-bottom: 20px;
+}
+
+.page-footer, .page-footer a{
+    color: grey;
+    font-size: 15px;
+}

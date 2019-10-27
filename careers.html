@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Careers - Arrant Pharma</title>
+
+
+  </head>
+
+  <body>
+        
+                <nav class="navbar navbar-expand-sm fixed-top" id="nav">
+                        <div class="container">
+                                <a class="navbar-brand" href="index.html">
+                                        <img src="images/Arrant.Final.png" width="80" height="80" alt="">
+                                </a>
+                
+                            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+                                    <span class="navbar-toggler-icon"></span>
+                            </button>
+                
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                                    <ul class="navbar-nav ml-auto">
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="index.html">Home</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="index.html#about-us" data-target="about-us">About Us</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="services.html">Services</a>
+                                            </li>
+                                            <li class="nav-item current-menu-item">
+                                                <a class="nav-link" href="careers.html">Careers</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="contact.html">Contact</a>
+                                            </li>
+                                        </ul>
+                            </div>         
+                        </div>
+                    </nav>
+      
+
+        <div id="careers">
+                <div class="careers-text">
+                    <h1>Careers</h1>
+                </div>
+            </div>
+        
+        <div class="careers-para">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                            <p>
+                                    Qualigence Health is committed to equal opportunity in the terms and conditions of employment for all employees and job applicants without regard to race, color, religion, sex, sexual orientation, age, gender identity or gender expression, national origin, disability or veteran status.
+        
+                                    Qualigence Health also complies with all applicable national, state and local laws governing nondiscrimination in employment as well as employment eligibility verification requirements and other requirements of each of its countries of operations with respect to immigration laws.
+                                    
+                                    If you have skills and experience that you feel are a good fit for any of the positions listed below, please upload and submit your resume below.
+                            </p>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="careers-form">
+            <div class="container">
+                
+                <div class="careers-form-field">
+                        <div class="row">
+                                <h4>Apply Now</h4>
+                            </div>
+            
+                    <div class="form-row">
+                            <div class="col-md-4">
+                                <input type="text" class="form-control" placeholder="Name">
+                            </div>
+                            <div class="col-md-4">
+                                <input type="email" class="form-control" placeholder="Email">
+                            </div>
+                            <div class="col-md-4">
+                                <input type="text" class="form-control" placeholder="Contact Number">
+                            </div>    
+                        </div> 
+                    <div class="form-row">
+                            <div class="col-md-4">
+                                <input type="text" class="form-control" placeholder="Country">
+                            </div>
+                            <div class="col-md-4">
+                                <input type="text" class="form-control" placeholder="Functional Area">
+                            </div>
+                            <div class="col-md-4">
+                                    <input type="file" id="file" class="form-control-file">
+                                    <small class="form-text text-muted" id="fileHelp">Max 3mb size</small>
+                                
+                            </div>    
+                        </div> 
+                    <button class="btn btn-light" type="submit">Submit</button>
+                    </div>
+                   
+            </div>
+        </div> -->
+
+        <form class="careers-form" id="careers-form" enctype="multipart/form-data" method="post" action="career-send.php">
+            <div class="container">
+                    <h4>Apply Now</h4>
+                    <hr>
+                   
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="form-group"><label>Name</label> <input type="text" class="form-control" name="name"></div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group"><label>E-Mail</label> <input type="text" class="form-control" name="email"></div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group"><label>Contact Number</label> <input type="text" class="form-control" name="mobile"></div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group"><label>Country</label> <input type="text" class="form-control" name="country"></div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group"><label>Functional Area</label> <input type="text" class="form-control" name="functional"></div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group"><label>Upload Resume</label> <input type="file" class="form-control" name="attachment"></div>
+                        </div>
+                        <div class="col-12"><input type="submit" class="btn" name=""></div>
+                    </div>
+                
+            </div>
+           
+        </form>
+
+
+
+       <!-- Footer -->
+<footer class="page-footer font-small blue">
+
+       
+        <div class="container">
+            <div class="row">
+                    <div class="footer-copyright text-center col-md-12">© 2019 Copyright:
+                            <a href="#">Arrant Pharma Solutions Corporation</a>
+                    </div>
+                    <div class="footer-copyright text-center col-md-12">Developed by :
+                            <a href="#">Vernaa</a>
+                    </div>
+            </div>
+               
+        </div>
+       
+       
+      
+      </footer>
+      <!-- Footer -->
+
+
+ 
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="script.js"></script>
+
+    <script type="text/javascript">
+       $("#careers-form").validate({
+    rules: {
+        name: "required",
+        email: "required",
+        email: {
+            required: true,
+            email: true
+        },
+        mobile: {
+            required:true,
+            minlength:8,
+            number:true,
+            maxlength:12,
+        },
+        country:"required",
+        functional:"required",
+        attachment:"required",
+       // agree: "required"
+    },
+    
+    submitHandler: function(form) {
+        form.submit();
+    }
+});
+
+    </script>
+  </body>
+
+  </html>
