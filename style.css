@@ -41,9 +41,12 @@ html{
     background: #151a44;
 } */
 
-/* .navbar-toggler-icon{
-   
-} */
+.navbar-toggler-icon ion-icon{
+   color: white !important;
+   font-size: 20px !important;
+
+   z-index: 10 !important;
+}
 
 .navbar ul li a:hover,
 .navbar ul li.current-menu-item a {
@@ -52,15 +55,20 @@ html{
 }
 header{
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('images/home-page-2.jpeg');
-    background-position: center;
+    /* background-position: center; */
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
-  height: 100vh;
-
+  background-attachment: fixed;
+  /* position: relative; */
+  /* height: 100vh; */
+  overflow: hidden;
 
 }
 
+/* .img-responsive{
+    width: 100%;
+    height: auto;
+} */
 .landing-text h3{
     color: white;
     position: absolute;
@@ -79,9 +87,15 @@ header{
   position: relative;
   height: 50vh;
 
+  
+
+  overflow: hidden;
+
+
+
 }
 
-.services-text h1{
+.services-text h3{
     color: white;
     text-align: center;
     position: absolute;
@@ -100,7 +114,7 @@ header{
 
 }
 
-.careers-text h1{
+.careers-text h3{
     color: white;
     text-align: center;
     position: absolute;
@@ -124,7 +138,7 @@ header{
 
 }
 
-.contact-text h1{
+.contact-text h3{
     color: white;
     text-align: center;
     position: absolute;
@@ -335,3 +349,300 @@ font-size: 100%;
     color: grey;
     font-size: 15px;
 }
+
+
+
+/*Media Queries */
+
+@media screen and (min-width: 300px) {
+
+    header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('images/home-page-2.jpeg');
+        background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      position: relative; 
+      width: 100%;
+       height: 100vh;
+      overflow: hidden;
+    
+    }
+
+    .navbar{
+        height: 18%;
+    }
+    #services{
+        height: 60vh;
+    }
+
+    #careers{
+        height: 60vh;
+    }
+
+    #contact{
+        height: 60vh;
+    }
+
+    .landing-text h3{
+        color: white;
+        position: absolute;
+        top: 39%;
+        left: 150px;
+        right: 120px;
+        font-size: 100%;
+        text-align: center;
+    }
+
+    .services-text h3{
+        color: white;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 120px;
+        text-transform: uppercase;
+        
+    }
+
+    .careers-text h3{
+        color: white;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 120px;
+        text-transform: uppercase;    
+    }
+
+    .contact-text h3{
+        color: white;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 120px;
+        text-transform: uppercase;    
+    }
+  }
+
+@media screen and (min-width: 700px) {
+
+    header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('images/home-page-2.jpeg');
+        background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      position: relative; 
+      width: 100%;
+       height: 100vh;
+      overflow: hidden;
+    
+    }
+
+    .navbar{
+        height: 15%;
+    }
+
+    .landing-text h3{
+        color: white;
+        position: absolute;
+        top: 39%;
+        left: 250px;
+        right: 250px;
+        font-size: 150%;
+        text-align: center;
+    }
+
+    .services-text h3{
+        color: white;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 330px;
+        text-transform: uppercase;
+        
+    }
+
+    .careers-text h3{
+        color: white;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 330px;
+        text-transform: uppercase;    
+    }
+
+    .contact-text h3{
+        color: white;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 330px;
+        text-transform: uppercase;    
+    }
+  }
+
+@media screen and (min-width: 900px) {
+
+    header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('images/home-page-2.jpeg');
+        background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      position: relative; 
+      width: 100%;
+       height: 100vh;
+      overflow: hidden;
+    
+    }
+
+    .navbar{
+        height: 12%;
+    }
+
+    .landing-text h3{
+        color: white;
+        position: absolute;
+        top: 39%;
+        left: 270px;
+        right: 270px;
+        font-size: 250%;
+        text-align: center;
+    }
+
+    .services-text h3{
+        color: white;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 420px;
+        text-transform: uppercase;
+        
+    }
+
+    .careers-text h3{
+        color: white;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 420px;
+        text-transform: uppercase;    
+    }
+
+    .contact-text h3{
+        color: white;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 420px;
+        text-transform: uppercase;    
+    }
+  }
+
+@media screen and (min-width: 1200px) {
+
+    header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('images/home-page-2.jpeg');
+        background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      position: relative; 
+      width: 100%;
+       height: 100vh;
+      overflow: hidden;
+    
+    }
+
+    .landing-text h3{
+        color: white;
+        position: absolute;
+        top: 45%;
+        left: 270px;
+        right: 270px;
+        font-size: 200%;
+        text-align: center;
+    }
+
+    .services-text h3{
+        color: white;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 530px;
+        text-transform: uppercase;
+        
+    }
+
+    .careers-text h3{
+        color: white;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 530px;
+        text-transform: uppercase;    
+    }
+
+    .contact-text h3{
+        color: white;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 530px;
+        text-transform: uppercase;    
+    }
+  }
+
+@media screen and (min-width: 1400px) {
+
+    header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('images/home-page-2.jpeg');
+        background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      position: relative; 
+      width: 100%;
+       height: 100vh;
+      overflow: hidden;
+    
+    }
+
+    .landing-text h3{
+        color: white;
+        position: absolute;
+        top: 45%;
+        left: 270px;
+        right: 270px;
+        font-size: 200%;
+        text-align: center;
+    }
+
+    .services-text h3{
+        color: white;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 640px;
+        text-transform: uppercase;
+        
+    }
+
+    .careers-text h3{
+        color: white;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 640px;
+        text-transform: uppercase;    
+    }
+
+    .contact-text h3{
+        color: white;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 640px;
+        text-transform: uppercase;    
+    }
+  }
