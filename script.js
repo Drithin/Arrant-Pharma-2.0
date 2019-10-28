@@ -64,10 +64,14 @@ $(document).ready(function(){
         var scroll = $(window).scrollTop();
         if (scroll > 200) {
           $(".navbar").css("background-color" , "rgba(21, 26, 68, 0.9)");
+       
+        //   $(" .navbar").css("height" , "20%");
         }
   
         else{
             $(".navbar").css("background-color" , "transparent");  	
         }
     })
+
+    
   })
