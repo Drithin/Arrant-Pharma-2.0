@@ -71,7 +71,19 @@ $(document).ready(function(){
         else{
             $(".navbar").css("background-color" , "transparent");  	
         }
+
+     
+
+
+       
+
     })
 
     
+
+   
+
+    
   })
+
+ 

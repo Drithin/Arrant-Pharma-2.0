@@ -2,12 +2,12 @@
 //config variables  $email
 
 $uploaddir = './resumes/';
-$our_email = "hr@qualigencehealth.com" ; //info@elitetechindia.com digital@tetramind.in, contactus@tsushyderabad.com,contactus@tsushyderabad.com
+$our_email = "drithn@gmail.com" ;
 $success_page ="index.html";
 $error_page = "../erro.php"; 
-$from_var = "Qualigance Health";
-$server_email = "hr@qualigencehealth.com"; //contactus@tsushyderabad.com
-$subject_line ="Job Application - Qualigance";
+$from_var = "Arrant Pharma";
+$server_email = "drithn@gmail.com";
+$subject_line ="Job Application - Arrant Pharma";
 $turn_on_error_for_numeric = "0";  // 1 is error, 0 is ignore.
 //***************End user defined variables::edit past here at your own risk.
 //Form fields parsed:
@@ -59,7 +59,7 @@ $form_fields = "<html>
 <body style='background-color:#f0f0f0; padding:40px 0;'>
 <table align='center' cellpadding='10' bgcolor='#FFFFFF' cellspacing='0' border='0' bordercolor='#ccc' style='width:100%; max-width:600px; font-family:Arial, Helvetica, sans-serif; font-size:13px; border:3px solid #e2e2e2;'>
     <tr>
-        <td colspan='2' align='center' style='font-size:25px; font-family:'Trebuchet MS', Arial, Helvetica, sans-serif;'><h2>Job Applications from Qualigance Health<h2></td>
+        <td colspan='2' align='center' style='font-size:25px; font-family:'Trebuchet MS', Arial, Helvetica, sans-serif;'><h2>Job Applications from Arrant Pharma<h2></td>
     </tr>
     <tr>
         <td width='180' valign='top' style='border-right:1px solid #e2e2e2;border-bottom:1px solid #e2e2e2; border-top:1px solid #e2e2e2;'>Name</td>

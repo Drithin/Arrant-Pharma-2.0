@@ -18,8 +18,10 @@ html{
 
     
 
-    height: 10%;
+    height: 20%;
 }
+
+
 
 .navbar img{
     margin-bottom:0px !important; 
@@ -105,7 +107,7 @@ header{
     
 }
 #careers{
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('images/services-page.jpeg');
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('images/careers-page.jpeg');
     background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -370,8 +372,10 @@ font-size: 100%;
     }
 
     .navbar{
-        height: 18%;
+        height: 20%;
     }
+
+    
     #services{
         height: 60vh;
     }
@@ -399,7 +403,7 @@ font-size: 100%;
         text-align: center;
         position: absolute;
         top: 50%;
-        left: 120px;
+        left: 150px;
         text-transform: uppercase;
         
     }
@@ -409,7 +413,7 @@ font-size: 100%;
         text-align: center;
         position: absolute;
         top: 50%;
-        left: 120px;
+        left: 150px;
         text-transform: uppercase;    
     }
 
@@ -418,7 +422,7 @@ font-size: 100%;
         text-align: center;
         position: absolute;
         top: 50%;
-        left: 120px;
+        left: 150px;
         text-transform: uppercase;    
     }
   }
