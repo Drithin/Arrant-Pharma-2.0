@@ -58,18 +58,13 @@ html{
 
 .img-responsive{
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('images/home-page-2.jpeg');
-    /* background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed; */
-  /* position: relative; */
-  /* height: 100vh;
-  width: 100vw;
-  overflow: hidden; */
 
-  background-position: center center;
+  /* background-position: center center;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 100% 100%; */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   height: 100vh;
   width: 100vw;
 }
@@ -111,6 +106,13 @@ html{
     top: 50%;
     left: 600px;
     text-transform: uppercase;
+    /* position : absolute;
+    left: 80%;
+    margin-left: -100px;
+    margin-right: -20px;
+    top: 80%;
+    margin-top: -50px;
+    color: white !important; */
     
 }
 #careers{
@@ -401,8 +403,8 @@ font-size: 100%;
         top: 39%;
         left: 150px;
         right: 120px;
-        font-size: 100%;
-        text-align: center;
+        font-size: 70%;
+        text-align: start;
     }
 
     .services-text h3{

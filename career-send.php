@@ -2,11 +2,11 @@
 //config variables  $email
 
 $uploaddir = './resumes/';
-$our_email = "drithn@gmail.com" ;
+$our_email = "hr@arrantpharma.com" ;
 $success_page ="index.html";
 $error_page = "../erro.php"; 
 $from_var = "Arrant Pharma";
-$server_email = "drithn@gmail.com";
+$server_email = "hr@arrantpharma.com";
 $subject_line ="Job Application - Arrant Pharma";
 $turn_on_error_for_numeric = "0";  // 1 is error, 0 is ignore.
 //***************End user defined variables::edit past here at your own risk.

@@ -9,7 +9,7 @@
     $requirement    =   $_POST["requirement"];
 
 	
-	$to 			= 	"drithn@gmail.com";//, digital@tetramind.in
+	$to 			= 	"hr@arrantpharma.com";//, digital@tetramind.in
 	$subject 		= 	"Contact Enquiry From Arrant Pharma";
 	$message 		= 	"<html>
 
